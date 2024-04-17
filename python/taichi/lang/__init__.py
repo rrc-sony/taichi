@@ -3,6 +3,7 @@ from .util import deprecated
 from .matrix import Matrix, Vector
 from .transformer import TaichiSyntaxError
 from .ndrange import ndrange, GroupedNDRange
+from .common_ops import *
 from copy import deepcopy as _deepcopy
 import functools
 import os
