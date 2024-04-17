@@ -1,6 +1,8 @@
 import setuptools
 import glob
 
+project_name = "taichi"
+version = "0.6.32"
 classifiers = [
     'Development Status :: 2 - Pre-Alpha',
     'Topic :: Software Development :: Compilers',
@@ -16,7 +18,7 @@ classifiers = [
 
 data_files = glob.glob('python/lib/*')
 print(data_files)
-packages = setuptools.find_packages() + ['taichi.examples']
+packages = setuptools.find_packages()
 print(packages)
 
 setuptools.setup(name=project_name,
