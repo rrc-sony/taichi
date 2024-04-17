@@ -1,6 +1,8 @@
 import setuptools
 import glob
 
+project_name = "taichi"
+version = "0.6.32"
 classifiers = [
     'Development Status :: 2 - Pre-Alpha',
     'Topic :: Software Development :: Compilers',
